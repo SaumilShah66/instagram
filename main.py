@@ -76,7 +76,3 @@ user__name = "dishagram_1"
 url = "http://www.instagram.com/"+user__name+"/?__a=1"
 links = image_link(url)
 dowload(links,user__name)
-
-# dhruvish = json.loads(open("1.json").read())
-# data = json.loads(open("ins.json").read())
-# print(len(links))
