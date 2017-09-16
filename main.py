@@ -72,7 +72,7 @@ def dowload(links,user__name):
 		number = number+1
 	pass
 
-user__name = "dishagram_1"
+user__name = raw_input("Enter user name, whose photos you want: ")
 url = "http://www.instagram.com/"+user__name+"/?__a=1"
 links = image_link(url)
 dowload(links,user__name)
